@@ -34,4 +34,11 @@ public class Alphabet {
         }
         return ALPHABET.charAt(index);
     }
+
+    /**
+     *Returns the alphabet size.
+     */
+    public static int getSize() {
+        return ALPHABET.length();
+    }
 }
