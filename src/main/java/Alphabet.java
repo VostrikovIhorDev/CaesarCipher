@@ -6,7 +6,7 @@ import java.util.Map;
  */
 public class Alphabet {
 
-    private static final String ALPHABET = "абвгдежзийклмнопрстуфхцчшщъыьэя.,«»\"':!? ";
+    private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz.,«»\"':!? ";
     private static final Map<Character, Integer> ALPHABET_MAP = getMap();
 
 
