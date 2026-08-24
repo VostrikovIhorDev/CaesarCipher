@@ -24,22 +24,27 @@ Git
 
 Project Structure
 
-src/
-├── main/
-│   └── java/
-│       ├── Alphabet.java
-│       ├── CaesarCipher.java
-│       ├── FileManager.java
-│       ├── Main.java
-│       └── Validator.java
-│
-└── test/
-└── java/
-├── AlphabetTest.java
-├── CaesarCipherTest.java
-├── FileManagerTest.java
-└── ValidatorTest.java
 
+```text
+CaesarCipher/
+├── pom.xml
+├── README.md
+├── .gitignore
+└── src/
+    ├── main/
+    │   └── java/
+    │       ├── Alphabet.java
+    │       ├── CaesarCipher.java
+    │       ├── FileManager.java
+    │       ├── Main.java
+    │       └── Validator.java
+    └── test/
+        └── java/
+            ├── AlphabetTest.java
+            ├── CaesarCipherTest.java
+            ├── FileManagerTest.java
+            └── ValidatorTest.java
+```
 
 Description
 
